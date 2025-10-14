@@ -6,13 +6,9 @@ Aroma is a premium, elegant, and user-friendly online store designed for fragran
 
 Navigation: Home, Men, Women, New Arrivals, Offers, and Contact pages for easy browsing.
 
-Search & Profile: Expandable search bar and profile dropdown with login and signup functionality.
-
 Product Display: 10–15 perfume cards per page, each showing product image, name, price, and buttons for Add to Cart and Buy Now.
 
-Add to Cart: Add items to a dedicated cart page; dynamically updates cart count and allows item removal without affecting other products.
-
-Buy Now: Redirects to a checkout page with a billing form for quick purchases.
+Add to Cart: Add items to a dedicated cart page; dynamically updates cart count.
 
 Explore by Aroma: Filter perfumes by fragrance type (Woody, Fruity, Floral, Aquatic, Citrus) and view relevant products.
 
@@ -22,7 +18,7 @@ Luxury Theme: Elegant, minimal, and gold-accented design with subtle animations 
 
 💻 Technologies Used
 
-Frontend: HTML5, CSS3, Vanilla JavaScript
+Frontend: HTML5, CSS3,JavaScript,React
 
 Cart Management: LocalStorage for storing cart items and tracking cart count dynamically
 
@@ -38,12 +34,6 @@ Men & Women Pages: Display gender-specific perfumes with filters and add-to-cart
 
 New Arrivals & Offers: Highlight latest and discounted perfumes.
 
-Cart Page: Shows added items, quantities, and total price. Delete items without affecting others.
-
-Buy Now Page: Billing form with name, email, phone, address, and payment method.
-
-Login & Signup Pages: Simple forms with email, password, and confirm password (for signup).
-
 🎨 Design Highlights
 
 Clean, luxurious, and minimal design
@@ -58,7 +48,7 @@ User-friendly interface with intuitive navigation
 
 Clone the repository:
 
-git clone <repository-url>
+git clone <https://github.com/shaikmuskan0512/Aroma-Luxury-Perfume-E-Commerce.gitl>
 
 
 Open index.html in your browser.
@@ -73,10 +63,6 @@ aroma-website/
 ├── women.html
 ├── new-arrivals.html
 ├── offers.html
-├── cartpage.html
-├── buynow.html
-├── login.html
-├── signup.html
 ├── style.css
 ├── main.js
 ├── products.js
