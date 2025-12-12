@@ -438,6 +438,15 @@ function initSearchBar() {
   }
 }
 
+function initAromaNavigation() {
+  const aromaCards = document.querySelectorAll('.aroma-card');
+  aromaCards.forEach(card => {
+    card.addEventListener('click', () => {
+      window.location.href = '/aromatic.html';
+    });
+  });
+}
+
 function init() {
   loadProducts('bestSellers', perfumeData.bestSellers);
   loadProducts('newArrivals', perfumeData.newArrivals);
@@ -447,6 +456,7 @@ function init() {
   initContactForm();
   initProfileDropdown();
   initSearchBar();
+  initAromaNavigation();
   updateCartCount();
 }
 

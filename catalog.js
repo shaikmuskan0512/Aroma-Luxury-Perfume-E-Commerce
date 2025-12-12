@@ -620,12 +620,12 @@ function displayProducts() {
 }
 
 function addToCart(productId) {
-  const currentPage = getCurrentPage();
   const allProducts = [
     ...perfumeData.men,
     ...perfumeData.women,
     ...perfumeData.newArrivals,
-    ...perfumeData.offers
+    ...perfumeData.offers,
+    ...perfumeData.aromatic
   ];
 
   const product = allProducts.find(p => p.id === productId);
