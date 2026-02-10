@@ -40,15 +40,7 @@ Clean, luxurious, and minimal design
 
 Consistent gold-accented theme
 
-Soft hover effects and image zoom
-
-User-friendly interface with intuitive navigation
-
-🚀 How to Run Locally
-
-Clone the repository:
-
-git clone <https://github.com/shaikmuskan0512/Aroma-Luxury-Perfume-E-Commerce.gitl>
+Soft hover effects and image 
 
 
 Open index.html in your browser.
